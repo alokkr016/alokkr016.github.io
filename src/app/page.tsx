@@ -23,10 +23,15 @@ export default function Home() {
           </span>
           Available for Opportunities
         </div> */}
-        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white max-w-4xl">
-          Building scalable <span className="text-gradient">automation frameworks</span> and{" "}
-          <span className="text-gradient">end-to-end test solutions</span>.
-        </h1>
+        <div className="space-y-4">
+          <h2 className="text-2xl md:text-3xl font-medium text-slate-300">
+            Hi, I'm <span className="text-white font-bold">Alok Kumar</span> <span className="inline-block origin-[70%_70%] animate-[wave_2.5s_infinite]">👋</span>
+          </h2>
+          <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight text-white max-w-4xl">
+            Building scalable <span className="text-gradient">automation frameworks</span> and{" "}
+            <span className="text-gradient">end-to-end test solutions</span>.
+          </h1>
+        </div>
         <p className="text-lg md:text-xl text-slate-400 max-w-2xl leading-relaxed">
           I am an SDET specializing in test automation with Playwright, Selenium, Appium, and TypeScript.
           I create robust end-to-end solutions that ensure rigorous software quality and reliability.

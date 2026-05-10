@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alok Kumar | Software Developer & SDET",
+  title: "Alok Kumar | Software Development Engineer in Test",
   description: "Building scalable automation frameworks and end-to-end test solutions using Playwright, Selenium, Appium, and TypeScript.",
 };
 

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alok Kumar — SDET",
+  title: "Alok Kumar",
   description:
     "Alok Kumar. Products on the open web, and the work behind them.",
 };

@@ -51,20 +51,19 @@ const roles = [
     when: "Dec 2024 — Present",
     title: "SDET II & SDET",
     place: "Quince",
-    point: "Quality engineering for the product, with automation that keeps up with delivery.",
+    point: "Playwright for the web product. Appium for iOS and Android.",
   },
   {
     when: "Apr 2024 — Oct 2024",
     title: "SDET",
     place: "CRED",
-    point:
-      "Mobile and web automation from scratch, and a refactor of what was already there. Parallel runs, and CI for the mobile workflows.",
+    point: "Appium for mobile. Web and mobile automation, parallel runs, and CI for the phone.",
   },
   {
     when: "Feb 2023 — Apr 2024",
     title: "Software Engineer in Test",
     place: "Cognizant",
-    point: "Automated pipelines and end-to-end coverage for the systems under test.",
+    point: "Selenium for the UI. REST Assured for the APIs.",
   },
   {
     when: "Jan 2022 — Apr 2022",
@@ -146,8 +145,9 @@ export default function Home() {
             Testing · day job
           </h2>
           <p className="mt-8 max-w-3xl text-sm leading-relaxed text-mute">
-            Playwright and Selenium for the browser. Appium for iOS and Android.
-            One suite, shared fixtures, parallel runs.
+            At Quince I use Playwright for the browser and Appium for iOS and
+            Android. At CRED it was Appium. At Cognizant it was Selenium for the
+            UI and REST Assured for the APIs.
           </p>
         </section>
 

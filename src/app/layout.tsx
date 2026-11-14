@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alok Kumar | Software Development Engineer in Test",
-  description: "Building scalable automation frameworks and end-to-end test solutions using Playwright, Selenium, Appium, and TypeScript.",
+  title: "Alok Kumar — SDET",
+  description:
+    "SDET. Playwright, Selenium, and Appium frameworks for web and mobile, run locally, across regions, and as experiments. A visual regression tool. Apps built by hand.",
 };
 
 export default function RootLayout({
@@ -25,11 +26,9 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col bg-slate-950 text-slate-300 font-sans selection:bg-indigo-500/30">
-        {children}
-      </body>
+      <body className="min-h-full bg-ink text-paper font-sans">{children}</body>
     </html>
   );
 }

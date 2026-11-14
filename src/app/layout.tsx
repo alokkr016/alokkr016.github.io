@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Alok Kumar — SDET",
   description:
-    "SDET. Playwright, Selenium, and Appium frameworks for web and mobile, run locally, across regions, and as experiments. A visual regression tool. Apps built by hand.",
+    "Alok Kumar. Products on the open web, and the work behind them.",
 };
 
 export default function RootLayout({

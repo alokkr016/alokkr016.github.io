@@ -142,9 +142,7 @@ export default function Home() {
             I build the tests, then I build the product.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-mute">
-            Playwright, Selenium, and Appium. Frameworks for websites and phones that
-            run locally, in more than one region, and as an experiment. A visual
-            regression tool. And a run of apps I vibe-coded and shipped.
+            A few of the products are live. The rest of this page is the work behind them.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a

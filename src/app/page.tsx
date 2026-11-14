@@ -145,20 +145,10 @@ export default function Home() {
           <h2 className="font-mono text-xs uppercase tracking-[0.18em] text-mute">
             Testing · day job
           </h2>
-          <ul className="mt-8 flex max-w-3xl flex-col gap-6 text-sm leading-relaxed text-mute">
-            <li>
-              Playwright and Selenium for the browser. Appium for iOS and Android.
-              One suite, shared fixtures, parallel runs.
-            </li>
-            <li>
-              A check starts on a laptop. The same check can run across regions, or
-              go out as an experiment.
-            </li>
-            <li>
-              A layout change comes back as a picture diff. A person decides
-              whether that picture should change.
-            </li>
-          </ul>
+          <p className="mt-8 max-w-3xl text-sm leading-relaxed text-mute">
+            Playwright and Selenium for the browser. Appium for iOS and Android.
+            One suite, shared fixtures, parallel runs.
+          </p>
         </section>
 
         <section id="building" className="scroll-mt-20">

@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Alok Kumar",
   description:
-    "Alok Kumar. Products on the open web, and the work behind them.",
+    "Alok Kumar. Testing is the day job. Building apps is the hobby.",
 };
 
 export default function RootLayout({

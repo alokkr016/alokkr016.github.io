@@ -82,14 +82,11 @@ export default function Home() {
           Alok Kumar
         </a>
         <nav className="flex w-full flex-wrap items-center gap-x-4 gap-y-1 text-mute sm:w-auto sm:justify-end">
-          <a className="hover:text-paper" href="#sites">
-            Sites
+          <a className="hover:text-paper" href="#testing">
+            Testing
           </a>
-          <a className="hover:text-paper" href="#practice">
-            Practice
-          </a>
-          <a className="hover:text-paper" href="#experience">
-            Experience
+          <a className="hover:text-paper" href="#building">
+            Building
           </a>
           <a
             className="hover:text-paper"
@@ -108,24 +105,24 @@ export default function Home() {
             Bengaluru
           </p>
           <h1 className="mt-5 text-balance text-4xl font-medium leading-[1.05] tracking-tight text-paper sm:text-6xl">
-            I make apps, and I test them.
+            Testing is the day job. Building is the hobby.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-mute">
-            The sites below are live. Under that is the one suite I use to test a
-            page and a phone.
+            I test web and mobile software at work. The sites are what I build on
+            my own time.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
-              href="#sites"
+              href="#testing"
               className="inline-flex h-10 items-center rounded-full bg-paper px-4 text-sm font-medium text-ink"
             >
-              See the sites
+              Day job
             </a>
             <a
-              href="https://apps.alokkumar.tech"
+              href="#building"
               className="inline-flex h-10 items-center rounded-full border border-line px-4 text-sm text-paper"
             >
-              Full index
+              Hobby
             </a>
             <a
               href="mailto:alokraj016@outlook.com"
@@ -144,10 +141,30 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="sites" className="scroll-mt-20">
+        <section id="testing" className="scroll-mt-20">
+          <h2 className="font-mono text-xs uppercase tracking-[0.18em] text-mute">
+            Testing · day job
+          </h2>
+          <ul className="mt-8 flex max-w-3xl flex-col gap-6 text-sm leading-relaxed text-mute">
+            <li>
+              Playwright and Selenium for the browser. Appium for iOS and Android.
+              One suite, shared fixtures, parallel runs.
+            </li>
+            <li>
+              A check starts on a laptop. The same check can run across regions, or
+              go out as an experiment.
+            </li>
+            <li>
+              A layout change comes back as a picture diff. A person decides
+              whether that picture should change.
+            </li>
+          </ul>
+        </section>
+
+        <section id="building" className="scroll-mt-20">
           <div className="flex flex-wrap items-end justify-between gap-3">
             <h2 className="font-mono text-xs uppercase tracking-[0.18em] text-mute">
-              Sites
+              Building · hobby
             </h2>
             <a
               href="https://apps.alokkumar.tech"
@@ -173,26 +190,6 @@ export default function Home() {
               </li>
             ))}
           </ul>
-        </section>
-
-        <section id="practice" className="scroll-mt-20">
-          <h2 className="font-mono text-xs uppercase tracking-[0.18em] text-mute">
-            Practice
-          </h2>
-          <article className="mt-8 rounded-2xl border border-line p-6 sm:p-8">
-            <h3 className="text-xl font-medium tracking-tight">
-              One suite for the site and the phone
-            </h3>
-            <p className="mt-4 max-w-3xl text-sm leading-relaxed text-mute">
-              Playwright and Selenium for the browser. Appium for iOS and Android.
-              Shared fixtures, parallel runs, and the same idea of a check on a
-              page and on a device. It can stay on a laptop, run across regions, or
-              go out as an experiment. A layout change comes back as a picture
-              diff, and a person decides whether that picture should change. Models
-              help choose what to cover and how to write what broke. The failure
-              still has to be something you can read and rerun.
-            </p>
-          </article>
         </section>
 
         <section id="experience" className="scroll-mt-20">
